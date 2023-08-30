@@ -50,56 +50,9 @@ body {
   border-color: rgb(54, 54, 54);
 }
 
-img {
-  max-width: auto;
-}
-
-h2, h3, p {
-  margin: 15px;
-}
-
-
-
-.bouton {
-  background: rgb(198, 28, 28);
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-}
-
 .menu {
-  background: white;
   padding: 15px;
   text-align: center;
-}
-
-
-.recettes {
-  background: rgb(144, 158, 143);
-  padding: 15px;
-}
-
-
-
-hr {
-  height: 2px;
-  background-color: black;
-  border: none;
-  margin: 15px;
-}
-
-
-footer {
-  background: black;
-  color: white;
-  padding: 15px;
-}
-
-
-nav {
-  display: flex;
-  background: white;
-  margin: 30px;
 }
 
 .menu-column1 {
@@ -117,25 +70,73 @@ nav {
   text-align: center;
 }
 
+img {
+  max-width: auto;
+}
 
+.bouton {
+  background: #e33d26;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin: 20px;
+}
 
+main {
+  background: white;
+}
+
+/* bloc image recetttes */
+
+.recettes {
+  background: #ebede8;
+  padding: 15px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 0 0 15px 0;
+}
 
 .bloc-1 {
   background: white;
-  margin-bottom: 15px;
   text-align: center;
-  padding: 15px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(54, 54, 54);
+  padding: 25px;
 }
 
 .bloc-2 {
   background: white;
-  margin-bottom: 15px;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
+}
+
+.recette-1 {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(54, 54, 54);
+  margin-bottom: 15px;
+}
+
+.recette-2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(54, 54, 54);
+  margin-bottom: 15px;
+}
+
+/* bloc image recetttes */
+
+footer {
+  background: black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  background: white;
+  margin: 30px;
 }
